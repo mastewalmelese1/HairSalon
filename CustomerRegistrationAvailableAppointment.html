@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption><h1>Available Appointment</h1></caption>
+        <thead>
+  <th>Time</th>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+  <th>Saturday</th>   
+  <th>Sunday</th>     
+    </thead>
+
+    <tbody>
+<tr>
+    <td>3:00-5:00</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Booked</td>
+</tr>
+<tr>
+    <td>5:00-7:00</td>
+    <td>Booked</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Booked</td>
+</tr>
+<tr>
+    <td>Lunch Time </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>8:00-10:00</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Available</td>
+    <td>Available</td>
+</tr>
+<tr>
+    <td>10:00-12:00</td>
+    <td>Available</td>
+    <td>Available</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Available</td>
+</tr>
+<tr>
+    <td>12:00-2:00</td>
+    <td>Booked</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Booked</td>
+    <td>Available</td>
+</tr>
+<tr>
+    <td>2:00-4:00</td>
+    <td>Available</td>
+    <td>Available</td>
+    <td>Booked</td>
+    <td>Booked</td>
+    <td>Available</td>
+    <td>Available</td>
+    <td>Booked</td>
+</tr>
+    </tbody>
+    </table>
+    <br><br>
+    
+   <form>
+
+        <h3>Customer Information</h3>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname"
+               placeholder="Enter your full name" required>
+        <br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone"
+               placeholder="Enter your phone number" required>
+        <br><br>
+
+        
+         <h3>Appointment Information</h3>
+
+        <label>Choose Your Hairstyle:</label><br>
+
+        <select name="hairstyle" required>
+            <option value="">Select a hairstyle</option>
+            <option>Box Braids</option>
+            <option>Cornrows</option>
+            <option>Goddess Braids</option>
+            <option>Hair Weaving</option>
+            <option>Twist Hairstyle</option>
+            <option>Haircut</option>
+        </select><br><br>
+
+         <label>Choose Appointment Date:</label><br>
+         <select name="day" required>
+            <option value="">Select a day</option>
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+        </select>
+        <br><br>
+
+
+        <label>Choose Appointment Time:</label><br>
+        <select name="time" required>
+            <option value="">Select a time</option>
+            <option>3:00-5:00</option>
+            <option>5:00-7:00</option>
+            <option>8:00-10:00</option>
+            <option>10:00-12:00</option>
+            <option>12:00-2:00</option>
+            <option>2:00-4:00</option>
+        </select>
+        <br><br>
+
+        <label>Additional Message:</label><br>
+        <textarea name="message" rows="4" cols="40" placeholder="Write your special requests here"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register and Book Appointment">
+        <input type="reset" value="Clear Form">
+        <br><br>
+
+</form>
+    <nav>
+       <a href="./index.html">Home Page</a><br>
+        <a href="./HairStyle.html">Hair Styles</a><br>
+        <a href="./ContactUs.html">Contact US</a>
+    </nav>
+</body>
+</html>
