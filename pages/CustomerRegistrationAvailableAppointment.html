@@ -7,8 +7,8 @@
 </head>
 <body>
     <table border="1">
-        <caption><h1>Available Appointment</h1></caption>
-        <thead>
+        <h1>Available Appointment</h1>
+        <thead><tr>
   <th>Time</th>
   <th>Monday</th>
   <th>Tuesday</th>
@@ -16,18 +16,19 @@
   <th>Thursday</th>
   <th>Friday</th>
   <th>Saturday</th>   
-  <th>Sunday</th>     
+  <th>Sunday</th>  
+  </tr>   
     </thead>
 
     <tbody>
 <tr>
     <td>3:00-5:00</td>
-    <td>Available</td>
+    <td><mark><b>Available</b></mark></td>
     <td>Booked</td>
     <td>Booked</td>
-    <td>Available</td>
+    <td><mark>Available</mark></td>
     <td>Booked</td>
-    <td>Available</td>
+    <td><mark>Available</mark></td>
     <td>Booked</td>
 </tr>
 <tr>
@@ -58,7 +59,7 @@
     <td>Booked</td>
     <td>Available</td>
     <td>Available</td>
-    <td>Available</td>
+    <td>Closed</td>
 </tr>
 <tr>
     <td>10:00-12:00</td>
@@ -68,7 +69,7 @@
     <td>Booked</td>
     <td>Available</td>
     <td>Booked</td>
-    <td>Available</td>
+    <td>Closed</td>
 </tr>
 <tr>
     <td>12:00-2:00</td>
@@ -78,7 +79,7 @@
     <td>Available</td>
     <td>Booked</td>
     <td>Booked</td>
-    <td>Available</td>
+    <td>Closed</td>
 </tr>
 <tr>
     <td>2:00-4:00</td>
@@ -88,7 +89,7 @@
     <td>Booked</td>
     <td>Available</td>
     <td>Available</td>
-    <td>Booked</td>
+    <td>Closed</td>
 </tr>
     </tbody>
     </table>
@@ -96,12 +97,17 @@
     
    <form>
 
-        <h3>Customer Information</h3>
+        <h2>Customer Information</h2>
 
         <label>Full Name:</label><br>
         <input type="text" name="fullname"
                placeholder="Enter your full name" required>
         <br><br>
+
+        <label>Email:</label><br>
+        <input type="email"  name="email" 
+        placeholder="email address"><br><br>
+        
 
         <label>Phone Number:</label><br>
         <input type="tel" name="phone"
@@ -159,9 +165,9 @@
 
 </form>
     <nav>
-       <a href="./index.html">Home Page</a><br>
-        <a href="./HairStyle.html">Hair Styles</a><br>
-        <a href="./ContactUs.html">Contact US</a>
+       <a href="../index.html">Home Page</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+       <a href="./HairStyle.html">Hair Style</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+       <a href="./ContactUs.html">Contact US</a>
     </nav>
 </body>
 </html>
